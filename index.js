@@ -1,3 +1,5 @@
+//HERO - This is a template code that will be shared by the class
+//
 // adds packages for superheroes and supervillains
 const superheroes = require('superheroes');
 const supervillains = require('supervillains');
