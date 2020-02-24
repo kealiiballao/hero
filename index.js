@@ -23,11 +23,11 @@ console.log(myThoughts);
 //add package for popular movies and displays it
 const Movie = require('popular-movie-quotes');
 var myMovie = Movie.getRandomQuote();
-console.log(myMovie); 
+console.log(myMovie);
 
 //famous last wordsconst 
-famousLastWords = require('famous-last-words');
-console.log(famousLastWords[10]); 
+const famousLastWords = require('famous-last-words');
+console.log(famousLastWords[10]);
 
 //copy above information to a file
 const fs = require("fs");
@@ -36,3 +36,4 @@ fs.writeFileSync("file2.txt", mySuperVillainName);
 fs.writeFileSync("file3.txt", myQuote);
 fs.writeFileSync("file4.txt", myMovie);
 fs.writeFileSync("file5.txt", famousLastWords[1]);
+//Added to access Array famousLastWords()
